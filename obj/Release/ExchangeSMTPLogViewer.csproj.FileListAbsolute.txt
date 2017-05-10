@@ -1,0 +1,10 @@
+C:\Users\Cory\Documents\Visual Studio 2015\Projects\ExchangeSMTPLogViewer\ExchangeSMTPLogViewer\bin\Release\ExchangeSMTPLogViewer.exe.config
+C:\Users\Cory\Documents\Visual Studio 2015\Projects\ExchangeSMTPLogViewer\ExchangeSMTPLogViewer\bin\Release\ExchangeSMTPLogViewer.exe
+C:\Users\Cory\Documents\Visual Studio 2015\Projects\ExchangeSMTPLogViewer\ExchangeSMTPLogViewer\bin\Release\ExchangeSMTPLogViewer.pdb
+C:\Users\Cory\Documents\Visual Studio 2015\Projects\ExchangeSMTPLogViewer\ExchangeSMTPLogViewer\obj\Release\ExchangeSMTPLogViewer.ExchangeMessageDialog.resources
+C:\Users\Cory\Documents\Visual Studio 2015\Projects\ExchangeSMTPLogViewer\ExchangeSMTPLogViewer\obj\Release\ExchangeSMTPLogViewer.ExchangeMessageFindDialog.resources
+C:\Users\Cory\Documents\Visual Studio 2015\Projects\ExchangeSMTPLogViewer\ExchangeSMTPLogViewer\obj\Release\ExchangeSMTPLogViewer.Form1.resources
+C:\Users\Cory\Documents\Visual Studio 2015\Projects\ExchangeSMTPLogViewer\ExchangeSMTPLogViewer\obj\Release\ExchangeSMTPLogViewer.Properties.Resources.resources
+C:\Users\Cory\Documents\Visual Studio 2015\Projects\ExchangeSMTPLogViewer\ExchangeSMTPLogViewer\obj\Release\ExchangeSMTPLogViewer.csproj.GenerateResource.Cache
+C:\Users\Cory\Documents\Visual Studio 2015\Projects\ExchangeSMTPLogViewer\ExchangeSMTPLogViewer\obj\Release\ExchangeSMTPLogViewer.exe
+C:\Users\Cory\Documents\Visual Studio 2015\Projects\ExchangeSMTPLogViewer\ExchangeSMTPLogViewer\obj\Release\ExchangeSMTPLogViewer.pdb
