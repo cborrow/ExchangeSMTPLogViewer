@@ -25,8 +25,12 @@ namespace ExchangeSMTPLogViewer
                 return "Server";
             else if (this.Event == "*")
                 return "Info";
+            else if (this.Event == "+")
+                return "SMTP Connection Open";
+            else if (this.Event == "-")
+                return "SMTP Connection Close";
             else
-                return "Other";
+                return "Unknown";
         }
 
         public override string ToString()

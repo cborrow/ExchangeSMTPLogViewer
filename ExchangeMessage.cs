@@ -43,6 +43,12 @@ namespace ExchangeSMTPLogViewer
             set { sessionId = value; }
         }
 
+        bool messageDelivered = false;
+        public bool Delivered
+        {
+            get { return messageDelivered; }
+        }
+
         List<ExchangeEvent> events;
         public List<ExchangeEvent> Events
         {
@@ -85,6 +91,11 @@ namespace ExchangeSMTPLogViewer
                 if (ee.Data.Contains("RCPT TO"))
                     this.Receipient = ee.Data.Split(':')[1];
             }
+            if(messageDelivered == false)
+            {
+                if (ee.Data.Contains(@"250 2.6.0"))
+                    messageDelivered = true;
+            }
             this.events.Add(ee);
         }
 
@@ -117,8 +128,8 @@ namespace ExchangeSMTPLogViewer
         public override string ToString()
         {
             if(this.Events.Count > 0 && this.Events[0].DateTime != null)
-                return string.Format("From: {0} To: {1} {2}", SetLengthStr(this.Sender, 100), SetLengthStr(this.Receipient, 100), this.events[0].DateTime);
-            return string.Format("From: {0}, To: {1}", SetLengthStr(this.Sender, 100), SetLengthStr(this.Receipient, 100));
+                return string.Format("From: {0} To: {1} {2} Delivered : {3}", SetLengthStr(this.Sender, 100), SetLengthStr(this.Receipient, 100), this.events[0].DateTime, messageDelivered);
+            return string.Format("From: {0}, To: {1} Delivered : {2}", SetLengthStr(this.Sender, 100), SetLengthStr(this.Receipient, 100), messageDelivered);
         }
     }
 }

@@ -40,7 +40,7 @@
             this.findToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.resetToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.searchToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.exchangeMessageListBox1 = new ExchangeSMTPLogViewer.ExchangeMessageListBox();
+            this.exchangeMessageListBox1 = new ExchangeMessageListBox();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 

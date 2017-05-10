@@ -36,6 +36,12 @@ namespace ExchangeSMTPLogViewer
             TextRenderer.DrawText(e.Graphics, "To : " + msg.Receipient, this.Font, new Rectangle(e.Bounds.X + 255, e.Bounds.Y, 250, e.Bounds.Height), this.ForeColor,
                 Color.Transparent, TextFormatFlags.Left | TextFormatFlags.VerticalCenter | TextFormatFlags.WordEllipsis);
 
+            if(msg.Delivered)
+            {
+                TextRenderer.DrawText(e.Graphics, "Message Queued for Delivery", this.Font, new Rectangle(e.Bounds.X + 510, e.Bounds.Y, 250, e.Bounds.Height),
+                    this.ForeColor, Color.Transparent, TextFormatFlags.Left | TextFormatFlags.VerticalCenter);
+            }
+
             base.OnDrawItem(e);
         }
     }
